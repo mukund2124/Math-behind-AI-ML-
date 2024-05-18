@@ -40,18 +40,18 @@ use the following steps:
 5. Plot the embeddings in 3D space using Plotly.
 6. 
 ## Requirements - Python 3.6 or higher - `numpy` - `gensim` - `scikit-learn` - `pandas` - `plotly` 
-## Installation 
+3## Installation 
 
 To install the required packages, you can use `pip`: 
 ```sh 
 pip install numpy gensim scikit-learn pandas plotly 
-Steps to run the project- 
-1.Clone the repository- 
+#Steps to run the project- 
+#1.Clone the repository- 
 git clone https://github.com/yourusername/word-embeddings-visualization.git 
 cd word-embeddings-visualization 
-2.Run the script- 
+#2.Run the script- 
 python word_embeddings_visualization.py 
-An example script to generate and visualize word embeddings: 
+#An example script to generate and visualize word embeddings: 
 import numpy as np 
 import gensim.downloader as api 
 from sklearn.metrics.pairwise import cosine_similarity 
@@ -80,4 +80,3 @@ fig = px.scatter_3d(df, x='x', y='y', z='z', text='word')
 fig.update_traces(marker=dict(size=5), selector=dict(mode='markers+text')) 
 # Show plot 
 fig.show() 
-
