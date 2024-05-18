@@ -3,22 +3,26 @@ The most appropriate metric to compare distances between any two different paths
 constrained 2D grid is the Manhattan distance or the Taxicab distance. This metric is better 
 suited than the Euclidean distance because the paths are constrained to horizontal and vertical 
 movements, and the Euclidean distance would underestimate the actual distance traveled. 
+
 The Manhattan distance between two points (x1, y1) and (x2, y2) is defined as |x1 - x2| + |y1 - y2|, where |x| represents the absolute value of x. This metric measures the sum of the 
 absolute differences between the respective coordinates, effectively counting the number of 
 horizontal and vertical moves required to reach the destination from the starting point. 
+
 Other distance metrics that could be considered include: 
 • Euclidean distance: √((x1 - x2)^2 + (y1 - y2)^2) 
 • Chebyshev distance: max(|x1 - x2|, |y1 - y2|) 
 • Minkowski distance: (|x1 - x2|^p + |y1 - y2|^p)^(1/p) 
+
 However, the Manhattan distance is the most appropriate for constrained paths on a 2D grid 
 because it accurately reflects the actual distance traveled along the grid lines.It is preferred 
 over other metrics, such as the Euclidean distance, because it accurately reflects the actual 
 distance traveled on the constrained grid, while the Euclidean distance would underestimate 
 the distance by allowing diagonal movements, which are not permitted on the grid. 
+
 Other distance metrics, such as the Chebyshev distance or the Minkowski distance, can also 
 be considered, but they may not accurately represent the distance traveled on the constrained 
 grid, or they may be computationally more complex than the Manhattan distance. 
-Answer to the second part. 
+
 # Word Embeddings Visualization 
 This project demonstrates how to generate word embeddings, compute their similarity using cosine 
 similarity, and visualize them in 3D space using Python and Plotly. We use pre-trained GloVe 
