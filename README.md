@@ -47,7 +47,7 @@ To install the required packages, you can use `pip`:
 pip install numpy gensim scikit-learn pandas plotly 
 #Steps to run the project- 
 #1.Clone the repository- 
-git clone https://github.com/yourusername/word-embeddings-visualization.git 
+git clone https://github.com/mukund2124/Math-behind-AI-ML-/blob/8aa4b5fa8a2ff3106de0ce334b1fc0a924a9ceab/word-embeddings-visualization.git 
 cd word-embeddings-visualization 
 #2.Run the script- 
 python word_embeddings_visualization.py 
