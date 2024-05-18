@@ -1,4 +1,3 @@
-# Math-behind-AI-ML
 Answer to the first part of question2. 
 The most appropriate metric to compare distances between any two different paths on a 
 constrained 2D grid is the Manhattan distance or the Taxicab distance. This metric is better 
@@ -69,14 +68,11 @@ reduced_embeddings = pca.fit_transform(embedding_matrix)
 df = pd.DataFrame(reduced_embeddings, columns=['x', 'y', 'z']) 
 df['word'] = corpus 
 # Create 3D scatter plot 
-f
- ig = px.scatter_3d(df, x='x', y='y', z='z', text='word') 
+fig = px.scatter_3d(df, x='x', y='y', z='z', text='word') 
 # Add labels to the plot 
-f
- ig.update_traces(marker=dict(size=5), selector=dict(mode='markers+text')) 
+fig.update_traces(marker=dict(size=5), selector=dict(mode='markers+text')) 
 # Show plot 
-f
- ig.show() 
+fig.show() 
 LICENSE- 
 This project is licensed under the MIT License. See the LICENSE file for details. 
 To make your project complete, ensure that you include the `word_embeddings_visualization.py` 
