@@ -27,8 +27,9 @@ grid, or they may be computationally more complex than the Manhattan distance.
 This project demonstrates how to generate word embeddings, compute their similarity using cosine 
 similarity, and visualize them in 3D space using Python and Plotly. We use pre-trained GloVe 
 embeddings to represent words numerically and apply PCA for dimensionality reduction. 
+
 ## Table of Contents - [Introduction](#introduction) - [Requirements](#requirements) - [Installation](#installation) - [Usage](#usage) 
-- [Example](#example) - [License](#license) 
+ 
 ## Introduction 
 In this project, we explore word embeddings and their similarities in a high-dimensional space. We 
 use the following steps: 
@@ -36,9 +37,11 @@ use the following steps:
 2. Convert these words into embeddings using pre-trained GloVe vectors. 
 3. Compute the cosine similarity between these embeddings. 
 4. Reduce the dimensionality of embeddings using PCA for 3D visualization. 
-5. Plot the embeddings in 3D space using Plotly. 
+5. Plot the embeddings in 3D space using Plotly.
+6. 
 ## Requirements - Python 3.6 or higher - `numpy` - `gensim` - `scikit-learn` - `pandas` - `plotly` 
 ## Installation 
+
 To install the required packages, you can use `pip`: 
 ```sh 
 pip install numpy gensim scikit-learn pandas plotly 
@@ -77,8 +80,4 @@ fig = px.scatter_3d(df, x='x', y='y', z='z', text='word')
 fig.update_traces(marker=dict(size=5), selector=dict(mode='markers+text')) 
 # Show plot 
 fig.show() 
-LICENSE- 
-This project is licensed under the MIT License. See the LICENSE file for details. 
-To make your project complete, ensure that you include the `word_embeddings_visualization.py` 
-script and a `LICENSE` file in your repository. Replace `https://github.com/yourusername/word
-embeddings-visualization.git` with the actual URL of your GitHub repository. 
+
