@@ -1,4 +1,4 @@
-Answer to the first part of question2. 
+# Answer to the first part
 The most appropriate metric to compare distances between any two different paths on a 
 constrained 2D grid is the Manhattan distance or the Taxicab distance. This metric is better 
 suited than the Euclidean distance because the paths are constrained to horizontal and vertical 
