@@ -82,7 +82,7 @@ fig = px.scatter_3d(df, x='x', y='y', z='z', text='word')
 fig.update_traces(marker=dict(size=5), selector=dict(mode='markers+text')) 
 # Show plot 
 fig.show() 
-
+<img src="https://github.com/mukund2124/CNN-cat-dogs-classification/assets/69761205/6a3a9577-17d9-4a46-962d-9a154c2caddd.jpg" width="300" height="300">
 <img src="https://github.com/mukund2124/Math-behind-AI-ML-/assets/69761205/c970fa89-bf00-4086-a327-ece25a96e79b.png" width="600">
 
 ![Screenshot 2024-05-19 232419](https://github.com/mukund2124/Math-behind-AI-ML-/assets/69761205/c970fa89-bf00-4086-a327-ece25a96e79b.png)
