@@ -84,3 +84,5 @@ fig.update_traces(marker=dict(size=5), selector=dict(mode='markers+text'))
 fig.show() 
 
 <img src="https://github.com/mukund2124/Math-behind-AI-ML-/assets/69761205/8e42a535-54b6-46a9-80f2-9097fb4d83ab.png" width="600">
+
+![Screenshot 2024-05-19 232419](https://github.com/mukund2124/Math-behind-AI-ML-/assets/69761205/c970fa89-bf00-4086-a327-ece25a96e79b.png)
