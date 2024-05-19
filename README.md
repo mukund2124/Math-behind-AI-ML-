@@ -86,5 +86,5 @@ fig.show()
 </br>
 Output:
 </br>
-<img src="https://github.com/mukund2124/Math-behind-AI-ML-/assets/69761205/c970fa89-bf00-4086-a327-ece25a96e79b.png" width="600">
+<img src="https://github.com/mukund2124/Math-behind-AI-ML-/assets/69761205/c970fa89-bf00-4086-a327-ece25a96e79b.png" width="900">
 
