@@ -51,7 +51,9 @@ git clone https://github.com/mukund2124/Math-behind-AI-ML-/blob/8aa4b5fa8a2ff310
 cd word-embeddings-visualization 
 #2.Run the script- 
 python word_embeddings_visualization.py 
-#An example script to generate and visualize word embeddings: 
+
+
+## An example script same as in the python file to generate and visualize word embeddings: 
 import numpy as np 
 import gensim.downloader as api 
 from sklearn.metrics.pairwise import cosine_similarity 
@@ -80,3 +82,6 @@ fig = px.scatter_3d(df, x='x', y='y', z='z', text='word')
 fig.update_traces(marker=dict(size=5), selector=dict(mode='markers+text')) 
 # Show plot 
 fig.show() 
+
+
+![Screenshot 2024-05-19 232419](https://github.com/mukund2124/Math-behind-AI-ML-/assets/69761205/8e42a535-54b6-46a9-80f2-9097fb4d83ab)
