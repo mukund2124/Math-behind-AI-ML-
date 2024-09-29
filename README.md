@@ -38,7 +38,7 @@ use the following steps:
 3. Compute the cosine similarity between these embeddings. 
 4. Reduce the dimensionality of embeddings using PCA for 3D visualization. 
 5. Plot the embeddings in 3D space using Plotly.
-6. 
+ 
 ## Requirements - Python 3.6 or higher - `numpy` - `gensim` - `scikit-learn` - `pandas` - `plotly` 
 3## Installation 
 
